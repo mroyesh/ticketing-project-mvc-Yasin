@@ -12,5 +12,17 @@ this link validate user create
   th:value="' '" th:text="Select" --> this is for select drop down one empty option
 
 
+beginning:
+
+when we click on log in and then welcome page we see left side-bar--> User Create
+
+ User Create --> link to --> create.html--> on User create add link by -->
+   --> th:href="@{user/create}"  on -->   >User Create</a>
+
+
+  <a th:href="@{user/update{id}(id=${user.username})">
+
+   this link takes us from view to controller with end point update and parameter username
+
 
  
